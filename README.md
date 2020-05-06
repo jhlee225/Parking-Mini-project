@@ -1,20 +1,26 @@
 # Parking-Mini-project
 
 90Factory Mini-Project
+(2020.02.24 ~ 2020.03.13)
 
 # 개요
 
-아키텍쳐 : (Frontend : HTML CSS JS) + (Backend : Node.js(Express))
+<h3>Frontend : HTML / CSS / JS</h3>
+<h3>Backend : Node.js(Express)</h3>
 
 # 설계
 
-<h2> 시나리오 설계 </h2>
+<h4> 시나리오 설계 </h4>
 <img src="./Design/ParkingCalculateSystem.jpg">
-<h2> UML 설계 </h2>
+<h4> UML 설계 </h4>
 <img src="./Design/ParkingUml.jpg">
-<h2> DB 설계 </h2>
+<h4> DB 설계 </h4>
 <img src="./Design/ParkingDB.jpg">
 
+# Details
+
+<h4> 반응형 </h4>
+<img src="./Screenshot/Responsive.jpg">
 # 설명서
 
 서버 구동방법 : (node.js 설치 후)
