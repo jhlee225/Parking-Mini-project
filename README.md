@@ -34,8 +34,10 @@
 
 서버 구동방법 : (node.js 설치 후)
 /Parking 에서
-npm install express
 npm start
+
+서버 구동 후
+http://localhost:5600/ 으로 접속
 
 요금 : 20분에 1000원
 차량번호 형식 : /00지역0000/
