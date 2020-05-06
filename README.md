@@ -19,8 +19,17 @@
 
 # Details
 
-<h4> 반응형 </h4>
+<h4> 간단한 반응형 구현 </h4>
 <img src="./Screenshot/Responsive.jpg">
+
+<h4> Ajax 를 활용한 DB Controll 및 Server Communication</h4>
+<img src="./Screenshot/Ajax.jpg">
+<img src="./Screenshot/DBcontroll.jpg">
+
+<h4> 간단한 DB 와 서버 구현<h4>
+<img src="./Screenshot/DB.jpg">
+<img src="./Screenshot/Server.jpg">
+
 # 설명서
 
 서버 구동방법 : (node.js 설치 후)
