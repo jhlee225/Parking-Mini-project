@@ -5,47 +5,49 @@
 
 ## 개요
 
-### Frontend
+### 아키텍쳐
+
+### `Frontend`
 
 HTML / CSS / JS
 
-### Backend
+### `Backend`
 
 Node.js(Express)
 
-## 설계
+### 설계
 
-### 시나리오 설계
+### `시나리오 설계`
 
 <img src="./Design/ParkingCalculateSystem.jpg">
 
-### UML 설계
+### `UML 설계`
 
 <img src="./Design/ParkingUml.jpg">
 
-### DB 설계
+### `DB 설계`
 
 <img src="./Design/ParkingDB.jpg">
 
 ## Details
 
-### 간단한 반응형 구현
+### `간단한 반응형 구현`
 
 <img src="./Screenshot/Responsive.jpg">
 
-### Ajax 를 활용한 DB Controll 및 Server Communication
+### `Ajax 를 활용한 DB Controll 및 Server Communication`
 
 <img src="./Screenshot/Ajax.jpg">
 <img src="./Screenshot/DBcontroll.jpg">
 
-### 간단한 DB 와 서버 구현
+### `간단한 DB 와 서버 구현`
 
 <img src="./Screenshot/DB.jpg">
 <img src="./Screenshot/Server.jpg">
 
 ## 설명서
 
-### 서버 구동방법
+### `서버 구동방법`
 
 (node.js 설치 후)
 /Parking 에서
@@ -54,7 +56,7 @@ npm start
 서버 구동 후
 http://localhost:5600/ 으로 접속
 
-### USER
+### `USER`
 
 요금 : 20분에 1000원
 차량번호 형식 : /00지역0000/
@@ -67,7 +69,7 @@ http://localhost:5600/ 으로 접속
 
 출차 : 0원인 차량은 정산후 출차가능으로 변경됩니다.
 
-### ADMIN
+### `ADMIN`
 
 Admin 입장방법 : 화면에서 "ADM" 입력 (※대문자주의)
 
