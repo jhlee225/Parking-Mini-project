@@ -15,6 +15,10 @@ HTML / CSS / JS
 
 Node.js(Express)
 
+### `DB`
+
+mysql
+
 ### 설계
 
 ### `시나리오 설계`
