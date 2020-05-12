@@ -21,7 +21,7 @@ Node.js(Express)
 
 ### `DB`
 
-mysql
+mySQL
 
 ### 설계
 
