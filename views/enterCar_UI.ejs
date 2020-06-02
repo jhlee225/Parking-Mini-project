@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2628447209.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="stylesheets/UI.css" />
+    <title>ENTER YOUR CAR</title>
+  </head>
+  <body class="PMS">
+    <main class="index__main">
+      <header class="PMS_Header_UI">
+        <div class="Header__Users">
+          <a href="index" class="logOut navBtn"><i class="fas fa-home"></i></a>
+          <a href="index" class="menu navBtn"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="Header__Btns UI">
+          <a href="enterCar_UI" class="Enter navBtn now">▶ 입차</a>
+          <a href="payFee_UI" class="Calculate navBtn">▶ 정산</a>
+          <a href="exitCar_UI" class="Exit navBtn">▶ 출차</a>
+        </div>
+        <div class="js-clock">
+          <h1></h1>
+        </div>
+      </header>
+      <h1 class="title">
+        <span>입차하실 </span><span>차량의 번호를</span><span> 입력하여</span>
+        <span>주십시오</span>
+      </h1>
+      <div class="index_UI">
+        <span class="status">입력된 값이 없습니다</span>
+        <input type="text" class="carNumInput" placeholder="차량번호 입력" />
+        <a class="enter UI_Btn">입차</a>
+      </div>
+      <a href="index" class="Back">Back to Index</a>
+    </main>
+    <a href="parking" class="Admin">ADMIN 으로 입장</a>
+    <footer class="PMS_Footer UI">by JHLee</footer>
+    <script src="javascripts/admin.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="javascripts/main.js"></script>
+    <script src="javascripts/enterCarUI.js"></script>
+    <script src="javascripts/clock.js"></script>
+  </body>
+</html>

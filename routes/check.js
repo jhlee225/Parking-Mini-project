@@ -15,12 +15,9 @@ router.post("/", function (req, res) {
   connection.query(insert_sql, function (err, rows, fields) {
     if (err) {
       console.log(err);
+      res.send(err);
     } else {
-      if (rows.length === 0) {
-        res.send("0");
-      } else {
-        res.send(rows);
-      }
+      res.send(rows);
     }
   });
   connection.end();
