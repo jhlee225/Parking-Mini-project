@@ -1,12 +1,7 @@
 var express = require("express");
 var router = express.Router();
 
-/* GET users listing. */
-router.get("/", function(req, res, next) {
-  res.render("search", { title: "Express" });
-});
-
-router.post("/", function(req, res) {
+router.post("/", function (req, res) {
   var mysql = require("mysql");
   const connection = mysql.createConnection({
     host: "localhost",
@@ -14,13 +9,13 @@ router.post("/", function(req, res) {
     user: "JH",
     password: "102938a",
     database: "parking_db",
-    dateStrings: "date"
+    dateStrings: "date",
   });
   connection.connect();
 
   connection.query(
     `select * from cars where carNumber like '%${req.body.title}%';`,
-    function(err, rows, fields) {
+    function (err, rows, fields) {
       res.send(rows);
     }
   );
