@@ -1,24 +1,24 @@
 # Parking-Mini-project
 
-90Factory Mini-Project
+## 90Factory Mini-Project
 (2020.02.24 ~ 2020.03.13)
 
 HTML CSS JavaScript 를 막 배운 코린이 첫 풀스택 프로젝트
 
 주차정산시스템을 소재로 웹기반 어플리케이션을 만들었습니다.
 
-Refactoring to Vol 2
+## Refactoring to Vol 2
 (2020.06.02 ~ )
 
 리팩토링 이슈
 
-- View 와 Public 을 제거후 프론트 단 리팩토링
+- [x] View 와 Public 을 제거후 프론트 단 리팩토링 시작 
 
-- JQuery 완전 제거, Axios 모듈화하여 Ajax 사용
+- [ ] JQuery 완전 제거, Axios 모듈화하여 Ajax 사용
 
-- Controller에 Store 개설하여 상태 관리
+- [ ] Controller에 Store 개설하여 상태 관리
 
-- Hash 방식의 SPA 화면 구축 
+- [ ] Hash 방식의 SPA 화면 구축 
 
 ## 개요
 
