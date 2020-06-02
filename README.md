@@ -12,9 +12,9 @@ Refactoring to Vol 2
 
 리팩토링 이슈
 
-- []  View 와 Public 을 제거후 프론트 단 리팩토링
+- View 와 Public 을 제거후 프론트 단 리팩토링
 
--  JQuery 완전 제거, Axios 모듈화하여 Ajax 사용
+- JQuery 완전 제거, Axios 모듈화하여 Ajax 사용
 
 - Controller에 Store 개설하여 상태 관리
 
