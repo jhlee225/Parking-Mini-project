@@ -22,7 +22,7 @@ Refactoring to Vol 2
 
 - Controller에 Store 개설하여 상태 관리
 
-- Hash 방식의 SPA 화면 구축 
+- Hash 방식의 SPA 화면 구축
 
 ## 개요
 
@@ -65,6 +65,7 @@ mySQL
 - 제이쿼리를 사용하여 Ajax로 서버에 요청
 
 ## 상세
+
 ### `간단한 반응형 구현`
 
 <img src="./Screenshot/Responsive.jpg">
