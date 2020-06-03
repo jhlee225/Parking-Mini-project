@@ -7,6 +7,10 @@ HTML CSS JavaScript 를 막 배운 코린이 첫 풀스택 프로젝트
 
 주차정산시스템을 소재로 웹기반 어플리케이션을 만들었습니다.
 
+차량 입차시 차량을 DB에 저장하며 시간의 경과에 따라 가격이 형성되고
+
+주차비를 계산했을 때 출차를 할수 있게 해주는 시스템입니다.
+
 Refactoring to Vol 2
 (2020.06.02 ~ )
 
@@ -50,8 +54,17 @@ mySQL
 
 <img src="./Design/ParkingDB.jpg">
 
-## Details
+## 개발
 
+- HTML CSS JavaScript JQuery 를 이용하여 프론트 엔드 개발
+
+- express-generator 를 사용하여 서버 개발 및 RESTFul API 개발
+
+- MySQL로 데이터베이스 구축
+
+- 제이쿼리를 사용하여 Ajax로 서버에 요청
+
+## 상세
 ### `간단한 반응형 구현`
 
 <img src="./Screenshot/Responsive.jpg">
