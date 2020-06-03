@@ -115,3 +115,7 @@ Admin 정산 : 정산시간을 현재시간으로 설정합니다.
 Admin 출차 : 정산에 상관없이 차량을 출차 시킵니다.
 
 Admin 검색 : 차량번호의 일부 또는 전체 검색시 차량을 찾을 수 있습니다.
+
+## 작동 화면 녹화
+
+<iframe width="640" height="360" src="https://youtu.be/gMjhM3T_0n0" frameborder="0" gesture="media" allowfullscreen=""></iframe>
