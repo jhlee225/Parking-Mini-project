@@ -118,4 +118,4 @@ Admin 검색 : 차량번호의 일부 또는 전체 검색시 차량을 찾을 �
 
 ## 작동 화면 녹화
 
-<iframe width="640" height="360" src="https://youtu.be/gMjhM3T_0n0" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+[Youtube 업로드](https://youtu.be/gMjhM3T_0n0)
